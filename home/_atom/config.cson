@@ -1,0 +1,41 @@
+"*":
+  metrics: false
+  "exception-reporting":
+    userId: "8e4c8905-ae31-1a14-9e27-d9fd7d839909"
+  welcome:
+    showOnStartup: false
+  editor:
+    softWrap: true
+    invisibles: {}
+    showIndentGuide: true
+    zoomFontWhenCtrlScrolling: false
+    autoIndentOnPaste: false
+    scrollPastEnd: true
+  core:
+    disabledPackages: [
+      "language-objective-c"
+      "background-tips"
+      "command-palette"
+      "encoding-selector"
+      "incompatible-packages"
+      "language-clojure"
+      "language-go"
+      "language-mustache"
+      "language-perl"
+      "language-php"
+      "language-todo"
+      "language-toml"
+      "language-yaml"
+      "metrics"
+      "notifications"
+      "open-on-github"
+      "release-notes"
+      "spell-check"
+      "autoflow"
+      "deprecation-cop"
+      "dev-live-reload"
+      "grammar-selector"
+      "language-gfm"
+      "language-less"
+      "welcome"
+    ]
