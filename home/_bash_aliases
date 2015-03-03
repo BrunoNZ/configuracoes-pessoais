@@ -1,0 +1,14 @@
+alias ssh_macalan='ssh bnzanette@macalan.c3sl.ufpr.br'
+alias ssh_priorat='ssh bnzanette@priorat.c3sl.ufpr.br'
+alias ssh_mumm='ssh bnzanette@mumm.c3sl.ufpr.br'
+alias ssh_guinness='ssh bnzanette@guinness.c3sl.ufpr.br'
+alias ssh_macardle='ssh bnzanette@macardle.c3sl.ufpr.br'
+alias ssh_murphy='ssh bnzanette@murphy.c3sl.ufpr.br'
+
+alias proxy_c3sl='ssh -D 8585 bnzanette@mumm.c3sl.ufpr.br'
+
+alias tunel_bd_sapos='ssh -L 5432:sapos.c3sl.ufpr.br:5432 bnzanette@mumm.c3sl.ufpr.br'
+alias tunel_bd_cadastroweb='ssh -L 5432:elgg.c3sl.ufpr.br:5432 bnzanette@mumm.c3sl.ufpr.br'
+
+alias lista_tamanho_pastas='find -maxdepth 1 -type d -exec du -s {} \; | sort -n'
+alias paleta_cor='zenity --color-selection --show-palette &>/dev/null &'
