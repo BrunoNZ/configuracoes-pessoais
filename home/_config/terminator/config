@@ -1,0 +1,30 @@
+[global_config]
+  enabled_plugins = ,
+  title_transmit_bg_color = "#ffffff"
+  always_split_with_profile = True
+  title_transmit_fg_color = "#000000"
+  title_inactive_bg_color = "#757575"
+[keybindings]
+[profiles]
+  [[default]]
+    background_image = None
+    font = Monospace 16
+  [[Atom-Dark]]
+    scrollbar_position = hidden
+    background_color = "#1d1f21"
+    foreground_color = "#c5c8c6"
+  [[One-Dark]]
+    font = Monospace 16
+    background_color = "#292c33"
+    foreground_color = "#ffffff"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = One-Dark
+    [[[window0]]]
+      type = Window
+      parent = ""
+      profile = One-Dark
+[plugins]
