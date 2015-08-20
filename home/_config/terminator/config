@@ -10,34 +10,36 @@
   [[default]]
     background_image = None
     font = Monospace 16
-  [[Arc-Dark]]
-    background_color = "#383c45"
-    foreground_color = "#bac3cf"
   [[One-Dark]]
     background_image = None
     font = Monospace 16
     background_color = "#262831"
     scrollbar_position = hidden
     foreground_color = "#ffffff"
-  [[Atom-Dark]]
-    background_image = None
-    background_color = "#1d1f21"
-    scrollbar_position = hidden
-    foreground_color = "#c5c8c6"
   [[Numix-Dark]]
     background_image = None
     background_color = "#333333"
     scrollbar_position = hidden
     split_to_group = True
     foreground_color = "#ffffff"
+  [[Arc-Dark]]
+    background_image = None
+    background_color = "#383c45"
+    scrollbar_position = hidden
+    foreground_color = "#bac3cf"
+  [[Atom-Dark]]
+    background_image = None
+    background_color = "#1d1f21"
+    scrollbar_position = hidden
+    foreground_color = "#c5c8c6"
 [layouts]
   [[default]]
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Arc-Dark
+      profile = Numix-Dark
     [[[window0]]]
       type = Window
       parent = ""
-      profile = Arc-Dark
+      profile = Numix-Dark
 [plugins]
