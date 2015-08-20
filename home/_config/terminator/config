@@ -10,6 +10,15 @@
   [[default]]
     background_image = None
     font = Monospace 16
+  [[Arc-Dark]]
+    background_color = "#383c45"
+    foreground_color = "#bac3cf"
+  [[One-Dark]]
+    background_image = None
+    font = Monospace 16
+    background_color = "#262831"
+    scrollbar_position = hidden
+    foreground_color = "#ffffff"
   [[Atom-Dark]]
     background_image = None
     background_color = "#1d1f21"
@@ -19,21 +28,16 @@
     background_image = None
     background_color = "#333333"
     scrollbar_position = hidden
-    foreground_color = "#ffffff"
-  [[One-Dark]]
-    background_image = None
-    font = Monospace 16
-    background_color = "#262831"
-    scrollbar_position = hidden
+    split_to_group = True
     foreground_color = "#ffffff"
 [layouts]
   [[default]]
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Numix-Dark
+      profile = Arc-Dark
     [[[window0]]]
       type = Window
       parent = ""
-      profile = Numix-Dark
+      profile = Arc-Dark
 [plugins]
