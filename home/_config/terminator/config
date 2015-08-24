@@ -23,10 +23,11 @@
     split_to_group = True
     foreground_color = "#ffffff"
   [[Arc-Dark]]
+    background_darkness = 0.07
     background_image = None
     background_color = "#383c45"
     scrollbar_position = hidden
-    foreground_color = "#bac3cf"
+    foreground_color = "#ffffff"
   [[Atom-Dark]]
     background_image = None
     background_color = "#1d1f21"
@@ -37,9 +38,9 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Numix-Dark
+      profile = Arc-Dark
     [[[window0]]]
       type = Window
       parent = ""
-      profile = Numix-Dark
+      profile = Arc-Dark
 [plugins]
