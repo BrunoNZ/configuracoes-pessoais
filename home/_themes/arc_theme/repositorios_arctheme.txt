@@ -1,0 +1,2 @@
+Firefox: https://github.com/horst3180/arc-firefox-theme/releases
+Theme: https://github.com/horst3180/Arc-theme
