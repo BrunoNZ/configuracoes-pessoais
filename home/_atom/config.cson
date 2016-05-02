@@ -1,17 +1,17 @@
 "*":
-  metrics: false
-  "exception-reporting":
-    userId: "8e4c8905-ae31-1a14-9e27-d9fd7d839909"
-  welcome:
-    showOnStartup: false
-  editor:
-    softWrap: true
-    invisibles: {}
-    showIndentGuide: true
-    zoomFontWhenCtrlScrolling: false
-    autoIndentOnPaste: false
-    scrollPastEnd: true
+  "atom-material-ui":
+    colors: {}
+    fonts: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      compactList: true
+    ui:
+      animations: false
+  "atom-terminal": {}
   core:
+    autoHideMenuBar: true
     disabledPackages: [
       "language-objective-c"
       "background-tips"
@@ -39,4 +39,28 @@
       "language-less"
       "welcome"
       "timecop"
+      "language-csharp"
     ]
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
+    ]
+  editor:
+    autoIndentOnPaste: false
+    fontSize: 18
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "8e4c8905-ae31-1a14-9e27-d9fd7d839909"
+  metrics: false
+  "one-dark-ui": {}
+  "terminal-plus":
+    core: {}
+    style:
+      animationSpeed: 100
+  welcome:
+    showOnStartup: false
