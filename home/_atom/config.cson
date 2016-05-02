@@ -1,6 +1,12 @@
 "*":
   "atom-material-ui":
-    colors: {}
+    colors:
+      abaseColor:
+        red: 62
+        green: 62
+        blue: 58
+        alpha: 1
+      predefinedColor: "Grey"
     fonts: {}
     tabs:
       compactTabs: true
@@ -9,15 +15,14 @@
       compactList: true
     ui:
       animations: false
+      panelContrast: true
   "atom-terminal": {}
   core:
     autoHideMenuBar: true
     disabledPackages: [
       "language-objective-c"
       "background-tips"
-      "command-palette"
       "encoding-selector"
-      "incompatible-packages"
       "language-clojure"
       "language-go"
       "language-mustache"
@@ -25,21 +30,21 @@
       "language-php"
       "language-todo"
       "language-toml"
-      "language-yaml"
       "metrics"
-      "notifications"
       "open-on-github"
       "release-notes"
       "spell-check"
       "autoflow"
-      "deprecation-cop"
       "dev-live-reload"
       "grammar-selector"
       "language-gfm"
-      "language-less"
       "welcome"
-      "timecop"
       "language-csharp"
+      "command-palette"
+      "timecop"
+      "incompatible-packages"
+      "deprecation-cop"
+      "package-generator"
     ]
     themes: [
       "atom-material-ui"
@@ -47,7 +52,7 @@
     ]
   editor:
     autoIndentOnPaste: false
-    fontSize: 18
+    fontSize: 17
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
