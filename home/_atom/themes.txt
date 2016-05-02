@@ -1,0 +1,4 @@
+https://atom.io/themes/atom-material-ui
+https://atom.io/themes/atom-material-syntax-dark
+https://atom.io/themes/an-old-hope-one-syntax
+
