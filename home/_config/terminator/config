@@ -1,41 +1,51 @@
 [global_config]
-  enabled_plugins = ,
   always_split_with_profile = True
-  title_transmit_fg_color = "#404040"
+  enabled_plugins = ,
+  title_inactive_bg_color = "#404040"
   title_inactive_fg_color = "#808080"
   title_transmit_bg_color = "#808080"
-  title_inactive_bg_color = "#404040"
+  title_transmit_fg_color = "#404040"
 [keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = Atom-Material
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      profile = Atom-Material
+      type = Window
+[plugins]
 [profiles]
   [[default]]
     background_image = None
     font = Monospace 16
-    scrollbar_position = hidden
     foreground_color = "#ffffff"
-  [[One-Dark]]
+    scrollbar_position = hidden
+  [[Arc-Dark]]
+    background_color = "#353945"
     background_image = None
+    font = Monospace 14
+    foreground_color = "#d3dae3"
+    scrollbar_position = hidden
+  [[Atom-Material]]
+    background_color = "#212121"
+    background_image = None
+    font = Monospace 11
+    foreground_color = "#cdd3de"
+    use_system_font = False
+  [[Cinnamon]]
+    background_color = "#505050"
+    background_image = None
+    foreground_color = "#ffffff"
+  [[Numix-Dark]]
+    background_image = None
+  [[One-Dark]]
     background_color = "#1c1d21"
+    background_image = None
+    font = Monospace 11
+    foreground_color = "#cbcdd2"
     scrollbar_position = hidden
     split_to_group = True
-    foreground_color = "#cbcdd2"
-  [[Numix-Dark]]
-  [[Arc-Dark]]
-    background_image = None
-    background_color = "#353945"
-    scrollbar_position = hidden
-    foreground_color = "#d3dae3"
-  [[Cinnamon]]
-    background_image = None
-    background_color = "#505050"
-    foreground_color = "#ffffff"
-[layouts]
-  [[default]]
-    [[[child1]]]
-      type = Terminal
-      parent = window0
-      profile = One-Dark
-    [[[window0]]]
-      type = Window
-      parent = ""
-      profile = One-Dark
-[plugins]
+    use_system_font = False
