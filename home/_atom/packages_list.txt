@@ -1,0 +1,6 @@
+build
+build-make
+busy
+file-icons
+highlight-selected
+language-opencl
