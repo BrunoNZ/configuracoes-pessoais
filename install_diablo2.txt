@@ -1,0 +1,14 @@
+1) Instalar Wine:
+$ sudo apt-get install wine-stable
+
+2) Inicializar o Wine:
+$ winecfg
+
+3) Baixar o wine-gecko:
+Verificar versao do wine e baixar as versões x86 e x86-64 do site: https://wiki.winehq.org/Gecko
+
+4) Instalar o wine-gecko:
+$ wine msiexec /i wine_gecko-x.xx-x86.msi
+$ wine msiexec /i wine_gecko-x.xx-x86_64.msi
+
+5) Rodar normalmente os instaladores.
