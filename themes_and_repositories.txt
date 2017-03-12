@@ -1,0 +1,9 @@
+Temas:
+https://snwh.org/paper/download
+https://github.com/horst3180/Arc-theme
+https://github.com/vinceliuice/vimix-gtk-themes
+
+Repositorios: #add-apt-repository
+ppa:webupd8team/terminix
+ppa:webupd8team/atom
+

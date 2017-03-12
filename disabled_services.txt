@@ -1,0 +1,8 @@
+# systemctl list-unit-files --type=service
+# systemctl disable <service>
+
+ModemManager.service
+pppd-dns.service
+accounts-daemon.service
+openvpn.service
+bluetooth.service
