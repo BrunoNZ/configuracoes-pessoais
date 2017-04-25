@@ -1,0 +1,1 @@
+git vim atom meld htop tilix samba caffeine gnome-twitch texlive-latex-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science gimp inkscape rar unrar
