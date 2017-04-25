@@ -1,3 +1,5 @@
+#### SERVICES #####
+
 # systemctl list-unit-files --type=service
 # systemctl disable <service>
 
@@ -6,3 +8,12 @@ pppd-dns.service
 accounts-daemon.service
 openvpn.service
 bluetooth.service
+snapd.service 
+snapd.system-shutdown.service
+speech-dispatcher
+
+#### PACKAGES #####
+snapd
+gnome-software
+gnome-weather
+deja-dup

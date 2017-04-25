@@ -4,3 +4,5 @@ busy
 file-icons
 highlight-selected
 language-opencl
+language-latex
+minimap
