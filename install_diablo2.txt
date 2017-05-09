@@ -1,4 +1,12 @@
 1) Instalar Wine:
+$ sudo apt-get install wine wine-gecko2.21 wine-mono0.0.8 ttf-mscorefonts-installer
+
+2) Instalar o Gecko quando aparecer a mensagem do Wine
+
+3) Rodar normalmente os instaladores.
+===========================================================================
+
+1) Instalar Wine:
 $ sudo apt-get install wine-stable
 
 2) Inicializar o Wine:
