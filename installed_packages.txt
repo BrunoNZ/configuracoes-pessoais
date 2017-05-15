@@ -1,1 +1,1 @@
-git vim atom meld htop terminator samba caffeine texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre gimp inkscape rar unrar
+git vim atom meld htop terminator samba caffeine gnuplot texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre gimp inkscape rar unrar
