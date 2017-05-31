@@ -10,11 +10,11 @@
   [[default]]
     [[[child1]]]
       parent = window0
-      profile = Atom-Material
+      profile = One-Dark
       type = Terminal
     [[[window0]]]
       parent = ""
-      profile = Atom-Material
+      profile = One-Dark
       type = Window
 [plugins]
 [profiles]
@@ -32,8 +32,9 @@
   [[Atom-Material]]
     background_color = "#212121"
     background_image = None
-    font = Monospace 11
+    font = Monospace 12
     foreground_color = "#cdd3de"
+    scrollbar_position = hidden
     use_system_font = False
   [[Cinnamon]]
     background_color = "#505050"
@@ -42,10 +43,10 @@
   [[Numix-Dark]]
     background_image = None
   [[One-Dark]]
-    background_color = "#1c1d21"
+    background_color = "#282c34"
     background_image = None
-    font = Monospace 11
-    foreground_color = "#cbcdd2"
+    font = Ubuntu Mono 14
+    foreground_color = "#abb2bf"
     scrollbar_position = hidden
     split_to_group = True
     use_system_font = False

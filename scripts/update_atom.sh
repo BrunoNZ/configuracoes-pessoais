@@ -6,10 +6,9 @@ ATOM_INSTALL_FOLDER="/home/ppginf/bnzanette/nobackup/atom"
 
 exit_error()
 {
-    echo "ERROR! ${1}"; 
-    exit 1    
+    echo "ERROR! ${1}";
+    exit 1
 }
-
 
 if [[ $(pgrep -c -x "atom") > 0 ]]; then
     exit_error "Close all Atom instances and retry."
@@ -23,11 +22,11 @@ if [[ ($(wget -q ${ATOM_DEB_URL} -O ${ATOM_DEB_FILE}; echo $?) == 0)
     mkdir -p ${ATOM_INSTALL_FOLDER} || exit_error "Something went wrong."
 
     echo "* Cleaning installation folder..."
-    (cd ${ATOM_INSTALL_FOLDER} && rm -rf usr) || exit_error "Something went wrong."
+    (cd ${ATOM_INSTALL_FOLDER} && rm -r usr) || exit_error "Something went wrong."
 
     echo "* Unpacking deb file..."
     dpkg -x ${ATOM_DEB_FILE} ${ATOM_INSTALL_FOLDER} || exit_error "Something went wrong."
-    
+
     echo "* Cleaning temporary files..."
     rm ${ATOM_DEB_FILE}
 fi
