@@ -1,3 +1,5 @@
 git vim atom meld htop terminator g++ caffeine gnuplot graphviz texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre gimp inkscape rar unrar redshift-gtk gpick vlc pyrenamer
 
 steam samba
+
+automake autoconf
