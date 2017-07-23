@@ -17,3 +17,4 @@ snapd
 gnome-software
 gnome-weather
 deja-dup
+tomboy

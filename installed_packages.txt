@@ -3,3 +3,5 @@ git vim atom meld htop terminator g++ caffeine gnuplot graphviz texlive-latex-re
 steam samba
 
 automake autoconf
+
+apache2 php php-cli libapache2-mod-php php-dev
