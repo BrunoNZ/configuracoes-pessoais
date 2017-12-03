@@ -11,6 +11,7 @@ bluetooth.service
 snapd.service 
 snapd.system-shutdown.service
 speech-dispatcher
+brltty.service
 
 #### PACKAGES #####
 snapd
