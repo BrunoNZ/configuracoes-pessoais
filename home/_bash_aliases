@@ -10,3 +10,4 @@ alias apt_upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias start_dspace='sudo systemctl start postgresql.service && sudo systemctl start tomcat8.service'
 alias stop_dspace='sudo systemctl stop postgresql.service && sudo systemctl stop tomcat8.service'
 
+alias free_mem='free && sync && sudo sh -c "echo 3 > /proc/sys/vm/drop_caches" && free'
