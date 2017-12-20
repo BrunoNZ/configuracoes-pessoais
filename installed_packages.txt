@@ -5,3 +5,5 @@ steam samba
 automake autoconf libtool
 
 apache2 php php-cli libapache2-mod-php php-dev
+
+dconf-cli
