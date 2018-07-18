@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JDeveloper
+Comment=Oracle JDeveloper
+Icon=/opt/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin/jdev_icon.gif
+Exec=/opt/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin/jdev
+Terminal=false
+Type=Application
+Categories=X-Red-Hat-Extra;Application;Development;
+

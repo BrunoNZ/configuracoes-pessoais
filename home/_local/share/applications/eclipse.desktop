@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=Neon
+Name=Eclipse
+Comment=Eclipse is an IDE
+Icon=eclipse
+Exec=/opt/Eclipse/eclipse/eclipse
+Terminal=false
+Type=Application
+Categories=Utility;Application;Development;
