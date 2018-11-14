@@ -1,0 +1,31 @@
+* Pre-requisitos:
+openjdk-8-jdk alien
+
+* Configurar GIT:
+$ git config --global user.email "brunonzanette@gmail.com"
+$ git config --global user.name "Bruno Nocera Zanette"
+$ git config --global core.editor vim
+
+* Matlab:
+1) Download:
+2) Exe
+
+* Eclipse:
+1) Download: https://www.eclipse.org/downloads/packages/installer
+2) Criar diretorio:
+$ sudo mkdir /opt/eclipse && sudo chown -R bruno:bruno /opt/eclipse
+3) Executar o instalador (sem sudo):
+$ ./Downloads/eclipse-installer/eclipse-inst
+
+* Oracle SQL Developer:
+1) Download: 
+2) Extrair e mover para /opt:
+$ unzip sqldeveloper-18.3.0.277.2354-no-jre.zip && sudo mv sqldeveloper /opt/ && sudo chown -R bruno:bruno /opt/sqldeveloper/
+3) Executar o script de inicializacao e usar como para parametro para o JDK: /usr/lib/jvm/java-8-openjdk-amd64/
+$ /opt/sqldeveloper/sqldeveloper.sh
+
+* Oracle Database XE:
+1) Download: https://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
+2) Converter o .RPM para .DEV:
+$ sudo alien --scripts oracle-database-xe-18c-1.0-1.x86_64.rpm
+3) Executar o .DEB:
