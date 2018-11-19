@@ -1,5 +1,5 @@
 * Pre-requisitos:
-openjdk-8-jdk alien libaio1
+openjdk-8-jdk openjfx alien libaio1
 
 * Configurar GIT:
 $ git config --global user.email "brunonzanette@gmail.com"
