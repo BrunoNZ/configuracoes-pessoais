@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=Neon
+Name=Oracle SQL Developer
+Comment=SQL Developer
+Icon=sqldeveloper
+Exec=/opt/sqldeveloper/sqldeveloper/bin/sqldeveloper
+Terminal=false
+Type=Application
+Categories=Utility;Application;Development;

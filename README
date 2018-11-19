@@ -1,5 +1,5 @@
 * Pre-requisitos:
-openjdk-8-jdk alien
+openjdk-8-jdk alien libaio1
 
 * Configurar GIT:
 $ git config --global user.email "brunonzanette@gmail.com"
@@ -16,6 +16,7 @@ $ git config --global core.editor vim
 $ sudo mkdir /opt/eclipse && sudo chown -R bruno:bruno /opt/eclipse
 3) Executar o instalador (sem sudo):
 $ ./Downloads/eclipse-installer/eclipse-inst
+4) Copiar o atalho
 
 * Oracle SQL Developer:
 1) Download: 
@@ -23,9 +24,15 @@ $ ./Downloads/eclipse-installer/eclipse-inst
 $ unzip sqldeveloper-18.3.0.277.2354-no-jre.zip && sudo mv sqldeveloper /opt/ && sudo chown -R bruno:bruno /opt/sqldeveloper/
 3) Executar o script de inicializacao e usar como para parametro para o JDK: /usr/lib/jvm/java-8-openjdk-amd64/
 $ /opt/sqldeveloper/sqldeveloper.sh
+4) Copiar o atalho
 
 * Oracle Database XE:
 1) Download: https://www.oracle.com/technetwork/database/database-technologies/express-edition/downloads/index.html
 2) Converter o .RPM para .DEV:
 $ sudo alien --scripts oracle-database-xe-18c-1.0-1.x86_64.rpm
-3) Executar o .DEB:
+3) Instalar o .DEB:
+$ sudo dpkg -i oracle-database-xe-18c-1.0-1.x86_64.deb
+4) Configurar o hostname 
+
+5) Executar o assistente de configuracao:
+$ sudo /etc/init.d/oracle-xe-18c configure
