@@ -1,9 +1,14 @@
-git vim atom meld htop terminator g++ caffeine gnuplot graphviz texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre gimp inkscape rar unrar redshift-gtk gpick vlc pyrenamer
+git vim meld htop g++ gnuplot graphviz unrar rar gpick
+
+gimp inkscape vlc
+
+texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre
 
 steam samba
 
-automake autoconf libtool zlib1g-dev
+## automake autoconf libtool 
+zlib1g-dev libmatio-dev
 
 apache2 php php-cli libapache2-mod-php php-dev
 
-dconf-cli
+redshift pyrenamer terminator caffeine

@@ -1,3 +1,12 @@
+# ********** OPCOES SIMULADOR: **********
+export SIMULATOR_ENV="production"
+# export SIMULATOR_CC=""
+export SIMULATOR_MEX="/usr/local/MATLAB/R2018b/bin/mex"
+export SIMULATOR_USE_LIBMEX="false"
+export SIMULATOR_USE_LIBMATIO="true"
+# ***************************************
+
+# *************** ALIASES: **************
 alias ssh_dinf='ssh bnzanette@ssh.c3sl.ufpr.br'
 
 alias proxy_c3sl='ssh -D 8585 bnzanette@ssh.c3sl.ufpr.br'
@@ -13,3 +22,7 @@ alias stop_dspace='sudo systemctl stop postgresql.service && sudo systemctl stop
 alias free_mem='free && sync && sudo sh -c "echo 3 > /proc/sys/vm/drop_caches" && free'
 
 alias matlab_cmd='matlab -nodesktop -nosplash'
+
+alias remove_matlab='sudo rm -rf /usr/local/MATLAB && rm -rf ~/.matlab'
+# ***************************************
+
