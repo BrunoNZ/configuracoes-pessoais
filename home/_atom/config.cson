@@ -1,18 +1,4 @@
 "*":
-  "atom-material-ui":
-    colors:
-      abaseColor: "#7e7e7e"
-      predefinedColor: "Grey"
-    fonts: {}
-    tabs:
-      compactTabs: true
-      tintedTabBar: true
-    treeView:
-      blendTabs: true
-      compactList: true
-    ui:
-      animations: false
-      panelContrast: true
   core:
     audioBeep: false
     autoHideMenuBar: true
@@ -39,16 +25,17 @@
       "package-generator"
       "language-opencl"
       "command-palette"
-      "build-make"
       "busy"
-      "build"
       "minimap"
+      "autocomplete-html"
+      "autocomplete-css"
+      "spell-check"
     ]
     telemetryConsent: "limited"
+    useTreeSitterParsers: true
   editor:
     autoIndentOnPaste: false
-    fontFamily: "Ubuntu Mono"
-    fontSize: 22
+    fontSize: 18
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
@@ -65,13 +52,25 @@
       hashbangs: false
       modelines: false
       usertypes: false
-  metrics: false
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
   minimap:
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui":
     hideDockButtons: true
+  "one-light-ui":
+    hideDockButtons: true
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        blue: "#3465a4"
+      zBright:
+        brightBlue: "#3465a4"
+    style:
+      animationSpeed: 0
   "spell-check":
     addKnownWords: true
     grammars: [
@@ -103,9 +102,6 @@
       "algorithmic"
       "input"
       "subsubsection"
-    ]
-    localePaths: [
-      "/home/bruno/.local/share/dicts"
     ]
     locales: [
       "pt-BR"
