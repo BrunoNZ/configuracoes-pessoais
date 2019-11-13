@@ -1,0 +1,12 @@
+Background: #2C323C
+Text: #ABB2BF
+Highlight: #282C34
+Keywords: #61AFEF
+Strings: #98C379
+Comments: #5C6370
+Automatically Highlight: #3E4451
+
+Não usados:
+#C678DD
+#56B6C2
+#D19A66
