@@ -27,15 +27,17 @@
       "command-palette"
       "busy"
       "minimap"
-      "autocomplete-html"
-      "autocomplete-css"
       "spell-check"
+      "language-rust-bundled"
+      "styleguide"
+      "timecop"
     ]
     telemetryConsent: "limited"
     useTreeSitterParsers: true
   editor:
     autoIndentOnPaste: false
-    fontSize: 18
+    fontFamily: "Ubuntu Mono, Menlo, Consolas, DejaVu Sans Mono, monospace"
+    fontSize: 20
     invisibles: {}
     scrollPastEnd: true
     showIndentGuide: true
