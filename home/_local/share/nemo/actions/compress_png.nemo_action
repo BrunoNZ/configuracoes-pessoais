@@ -1,0 +1,16 @@
+[Nemo Action]
+# Requires pngquant - apt install pngquant
+Name=Compress PNG
+Comment=Compress %F with pngquant
+Exec=pngquant --force --quality=40-100 --skip-if-larger --ext _compressed.png %F
+Icon-Name=image-adjust
+#Stock-Id=
+Selection=s
+#Extensions=
+Mimetypes=image/png;
+#Separator= 
+#Quote=
+EscapeSpaces=true
+Dependencies=pngquant;
+#Conditions=
+#Terminal=
