@@ -1,20 +1,17 @@
-# ********** OPCOES SIMULADOR: **********
-export SIMULATOR_ENV="production"
-# export SIMULATOR_CC=""
-export SIMULATOR_MEX="/usr/local/MATLAB/R2018b/bin/mex"
-export SIMULATOR_USE_LIBMEX="false"
-export SIMULATOR_USE_LIBMATIO="true"
-# ***************************************
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${HOME}/.local/lib/
+#export PATH=${PATH}:${HOME}/.local/ampl.linux64
+
+#export PATH=${PATH}:${HOME}/.opt/node-v12.16.3-linux-x64/bin
+
+#export DENO_INSTALL="/home/bruno/.deno"
+#export PATH="${PATH}:${DENO_INSTALL}/bin"
 
 # *************** ALIASES: **************
 alias ssh_dinf='ssh bnzanette@ssh.c3sl.ufpr.br'
-
 alias proxy_c3sl='ssh -D 8585 bnzanette@ssh.c3sl.ufpr.br'
 
 alias lista_tamanho_pastas='find -maxdepth 1 -type d -exec du -s {} \; | sort -n'
 alias paleta_cor='zenity --color-selection --show-palette &>/dev/null &'
-
-alias apt_upgrade='sudo apt-get update && sudo apt-get upgrade'
 
 alias start_dspace='sudo systemctl start postgresql.service && sudo systemctl start tomcat8.service'
 alias stop_dspace='sudo systemctl stop postgresql.service && sudo systemctl stop tomcat8.service'
@@ -24,5 +21,8 @@ alias free_mem='free && sync && sudo sh -c "echo 3 > /proc/sys/vm/drop_caches" &
 alias matlab_cmd='matlab -nodesktop -nosplash'
 
 alias remove_matlab='sudo rm -rf /usr/local/MATLAB && rm -rf ~/.matlab'
-# ***************************************
 
+alias copia_projetos_cluster='rsync -av -e ssh --exclude ".git" --exclude "data*" --exclude "dados*" --exclude "build" --exclude "bin" --exclude "results*" --delete hidrosim hidrosim-mcsearch bnzanette@cluster:~/'
+
+alias fix_grub='sudo grub-install --recheck /dev/sda'
+# ***************************************
