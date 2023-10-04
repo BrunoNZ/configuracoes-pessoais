@@ -1,16 +1,25 @@
-git vim meld htop g++ gnuplot graphviz unrar rar gpick
+apt install \
+git vim htop docker docker-compose
 
-gimp inkscape vlc
-
-texlive-latex-recommended texlive-generic-recommended texlive-fonts-recommended texlive-lang-portuguese texlive-latex-extra texlive-fonts-extra texlive-science tex-gyre
-
-steam samba
-
-nvidia-driver-430 libnvidia-gl-430 libnvidia-gl-430:i386 libvulkan1 libvulkan1:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386
-
-## automake autoconf libtool 
-zlib1g-dev libmatio-dev
-
-apache2 php php-cli libapache2-mod-php php-dev
-
-redshift pyrenamer terminator caffeine
+flatpak install \
+com.belmoussaoui.Obfuscate \
+com.brave.Browser \
+com.getpostman.Postman \
+com.github.tchx84.Flatseal \
+com.google.Chrome \
+com.microsoft.Edge \
+com.mongodb.Compass \
+com.obsproject.Studio \
+com.opera.Opera \
+com.slack.Slack \
+com.spotify.Client \
+com.uploadedlobster.peek \
+com.valvesoftware.Steam \
+io.dbeaver.DBeaverCommunity \
+net.lutris.Lutris \
+org.gnome.SoundRecorder \
+org.gnome.meld \
+org.gtk.Gtk3theme.Mint-Y-Aqua \
+org.gtk.Gtk3theme.Mint-Y-Dark-Blue \
+org.libreoffice.LibreOffice \
+us.zoom.Zoom \
