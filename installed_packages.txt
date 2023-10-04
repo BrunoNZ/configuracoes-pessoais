@@ -1,7 +1,10 @@
+apt purge \
+libreoffice* pix* thunderbird* rhythmbox*
+
 apt install \
 git vim htop docker docker-compose
 
-flatpak install \
+flatpak install -y \
 com.belmoussaoui.Obfuscate \
 com.brave.Browser \
 com.getpostman.Postman \
@@ -22,4 +25,4 @@ org.gnome.meld \
 org.gtk.Gtk3theme.Mint-Y-Aqua \
 org.gtk.Gtk3theme.Mint-Y-Dark-Blue \
 org.libreoffice.LibreOffice \
-us.zoom.Zoom \
+us.zoom.Zoom
